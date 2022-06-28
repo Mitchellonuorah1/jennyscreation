@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+* {
+      font-family: 'poppins';
+}
+
+body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #808080;
+      text-align: center;
+}
+
+blockquote {
+      margin: 0;
+      padding: 0;
+      font-size: 14px;
+      padding-left: 85px;
+      margin-bottom: 40px;
+}
+
+h2 {
+      margin-bottom: 0;
+      font-size: 30px;
+      animation: name 1s infinite;
+}
+div.about {
+      margin-top: 70px;
+      margin: auto;
+      width: 70%;
+      box-shadow: -2px 2px 2px 2px #000;
+      border-radius: 20px;
+      height: 250px;
+      line-height: 1.5;
+      padding: 6px;
+}
+
+div.cont {
+      margin-top: 70px;
+      margin: auto;
+      width: 70%;
+      box-shadow: -2px 2px 2px 2px #000;
+      border-radius: 20px;
+      height: 170px;
+      line-height: 1.5;
+      padding: 6px;
+}
+img {
+      width: 50%;
+      height: 200px;
+      margin: 20px;
+      border-radius: 20px;
+      border: 1px solid #fff;
+      animation: border 2s infinite;
+}
+
+@keyframes border {
+      0% {border: 1px solid white;}
+      50% {border: 1px solid red;}
+      100% {border: 1px solid #ff0;}
+}
+div.item1 {
+      width: 50%;
+      padding: 10px;
+      display: flex;
+      margin: auto;
+}
+div.item2 {
+      width: 50%;
+      padding: 10px;
+      display: flex;
+      margin: auto;
+}
+h3.unis {
+      font-size: 30px;
+      margin: 30px;
+}
+h4.fem {
+      color: yellow;
+      font-size: 30px;
+      margin: 0;
+      animation: color 1s infinite;
+}
+h4.unis {
+      color: yellow;
+      font-size: 30px;
+      margin: 0;
+      animation: color 1s infinite;
+}
+
+@keyframes color {
+      0% {color: #fff;}
+      100% {color: yellow;}
+}
+
+div > h3 {
+      font-size: 30px;
+      margin: 4px;
+      text-align: left;
+}
+
+div > p > a {
+      text-decoration: none;
+      width: 100%;
+      font-size: 20px;
+}
+
+div.medias {
+      display: flex;
+      justify-content: space-around;
+}
+p.one > a {
+      color: #000;
+      font-weight: 600;
+      animation: one 1s infinite;
+}
+p.two > a {
+      color: #000;
+      font-weight: 600;
+      animation: two 1s infinite;
+}
+p.three > a {
+      color: #000;
+      font-weight: 600;
+      animation: three 1s infinite;
+}
+
+@keyframes one {
+      0% {color: green;}
+      100% {color: #000;}
+}
+@keyframes two {
+      0% {color: red;}
+      100% {color: #000;}
+}
+@keyframes three {
+      0% {color: rgb(212, 71, 71);}
+      100% {color: #000;}
+}
+
+
+@keyframes name {
+      0% {color: red;}
+      50% {color: yellow;}
+    100% {color: black;}
+}
+
+footer {
+      display: contents;
+      position: absolute;
+      bottom: 0;
+}
+
+
+
+
+@media (max-width: 550px) {
+      body {
+            height: 100%;
+            width: 100%;
+            background-color: #000;
+            color: aliceblue;
+            scroll-behavior: smooth;
+            cursor: pointer;
+      }
+      div.about {
+            margin-top: 70px;
+            margin: auto;
+            width: 70%;
+            box-shadow: -2px 2px 2px 2px #fff;
+            border-radius: 20px;
+            height: 250px;
+            line-height: 1.5;
+            padding: 6px;
+      }
+      
+      div.cont {
+            margin-top: 70px;
+            margin: auto;
+            width: 70%;
+            box-shadow: -2px 2px 2px 2px #fff;
+            border-radius: 20px;
+            height: 230px;
+            line-height: 1.5;
+            padding: 6px;
+      }
+      img {
+            width: 50%;
+            height: 200px;
+            margin: 3px;
+            border-radius: 20px;
+      }
+      div.item1 {
+            width: 80%;
+            padding: 10px;
+            display: flex;
+            margin: auto;
+      }
+
+      div.item2 {
+            width: 80%;
+            padding: 10px;
+            display: flex;
+            margin: auto;
+      }
+
+      h4.unis {
+            color: yellow;
+            font-size: 30px;
+            margin: 0;
+            animation: color 1s infinite;
+      }
+
+      @keyframes color {
+            0% {color: #fff;}
+            100% {color: yellow;}
+      }
+
+      div.medias {
+            display: block;
+            line-height: 2;
+      }
+      .bob {
+            color: yellow;
+      }
+
+      @keyframes one {
+            0% {color: #fff;}
+            100% {color: green;}
+      }
+      @keyframes two {
+            0% {color: #fff;}
+            100% {color: red;}
+      }
+      @keyframes three {
+            0% {color: #fff;}
+            100% {color: rgb(212, 71, 71);}
+      }
+      
+      
+}
